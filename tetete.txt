@@ -10,9 +10,7 @@ qwf
 qw
 fqw
 f
-qw
-fqw
-f
+
 qwf
 qw
 fq
@@ -21,3 +19,13 @@ qwf
 q
 f
 
+dwq
+d
+qw
+dqw
+d
+qw
+d
+qw
+dw
+q
