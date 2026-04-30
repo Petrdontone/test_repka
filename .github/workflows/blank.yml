@@ -3,15 +3,14 @@ name: CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 
 jobs:
-build:
+  build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
 
