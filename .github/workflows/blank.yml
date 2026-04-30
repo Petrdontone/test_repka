@@ -31,4 +31,4 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Вывести все файлы и папки
-        run: echo $(ls -la)
+        run: ls -la
