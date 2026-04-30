@@ -3,9 +3,9 @@ name: CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 
 jobs:
@@ -21,3 +21,14 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      - name: Трейтий шаг
+	run: echo $pwd
+
+  all_ls:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Вывести все файлы и папки
+        run: echo $(ls -la)
