@@ -22,8 +22,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-      - name: Трейтий шаг
-	run: echo $pwd
+      - name: Третий шаг
+        run: echo $pwd
 
   all_ls:
     runs-on: ubuntu-latest
